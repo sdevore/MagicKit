@@ -29,6 +29,7 @@
  * Returns strlen(src) + MIN(siz, strlen(initial dst)).
  * If retval >= siz, truncation occurred.
  */
+#ifndef HAVE_STRLCAT
 size_t
 strlcat(char *dst, const char *src, size_t siz)
 {
@@ -56,3 +57,4 @@ strlcat(char *dst, const char *src, size_t siz)
 
 	return(dlen + (s - src));	/* count does not include NUL */
 }
+#endif
