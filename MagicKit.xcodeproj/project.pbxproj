@@ -53,10 +53,8 @@
 		DDC92B1212618B3D0012DE28 /* readelf.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC92992126187080012DE28 /* readelf.c */; };
 		DDC92B1312618B3D0012DE28 /* asprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC9297B126187080012DE28 /* asprintf.c */; };
 		DDC92B1412618B3D0012DE28 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC9297F126187080012DE28 /* compress.c */; };
-		DDC92B1812618B3D0012DE28 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC92997126187080012DE28 /* strlcpy.c */; };
 		DDC92B1B12618B3D0012DE28 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC92989126187080012DE28 /* magic.c */; };
 		DDC92B1C12618B3D0012DE28 /* cdf_time.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC9297C126187080012DE28 /* cdf_time.c */; };
-		DDC92B1D12618B3D0012DE28 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC92996126187080012DE28 /* strlcat.c */; };
 		DDC92B1E12618B3D0012DE28 /* cdf.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC9297D126187080012DE28 /* cdf.c */; };
 		DDC92B2212618B3D0012DE28 /* softmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC92995126187080012DE28 /* softmagic.c */; };
 		DDC92B2312618B3D0012DE28 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC92990126187080012DE28 /* print.c */; };
@@ -499,10 +497,8 @@
 				DDC92B1212618B3D0012DE28 /* readelf.c in Sources */,
 				DDC92B1312618B3D0012DE28 /* asprintf.c in Sources */,
 				DDC92B1412618B3D0012DE28 /* compress.c in Sources */,
-				DDC92B1812618B3D0012DE28 /* strlcpy.c in Sources */,
 				DDC92B1B12618B3D0012DE28 /* magic.c in Sources */,
 				DDC92B1C12618B3D0012DE28 /* cdf_time.c in Sources */,
-				DDC92B1D12618B3D0012DE28 /* strlcat.c in Sources */,
 				DDC92B1E12618B3D0012DE28 /* cdf.c in Sources */,
 				DDC92B2212618B3D0012DE28 /* softmagic.c in Sources */,
 				DDC92B2312618B3D0012DE28 /* print.c in Sources */,
