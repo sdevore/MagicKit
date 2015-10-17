@@ -2290,7 +2290,7 @@ getvalue(struct magic_set *ms, struct magic *m, const char **p, int action)
  * Return updated scan pointer as function result. Warn if set.
  */
 private const char *
-getstr(struct magic_set *ms, struct magic *m, const char *s, int warn)
+__attribute__((overloadable))getstr(struct magic_set *ms, struct magic *m, const char *s, int warn)
 {
 	const char *origs = s;
 	char	*p = m->value.s;

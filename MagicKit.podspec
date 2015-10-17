@@ -3,9 +3,9 @@ s.name     = 'MagicKit'
 s.version  = '0.0.1'
 s.license  = 'MIT'
 s.summary  = 'mimeType detect'
-s.homepage = 'https://github.com/aelam/MagicKit'
-s.author   = { 'Ryan Wang' => 'ryanwang@me.com' }
-s.source   = { :git => 'https://github.com/aelam/MagicKit.git',
+s.homepage = 'https://github.com/sdevore/MagicKit'
+s.author   = { 'Sam DeVore' => 'sdevore@me.com' }
+s.source   = { :git => 'https://github.com/sdevore/MagicKit.git',
 :tag => '0.0.1' }
 
 s.ios.deployment_target = '5.0'
