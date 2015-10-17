@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name     = 'MagicKit'
-s.version  = '0.0.1'
+s.version  = '0.0.2'
 s.license  = 'MIT'
 s.summary  = 'mimeType detect'
 s.homepage = 'https://github.com/sdevore/MagicKit'
