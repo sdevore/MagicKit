@@ -94,7 +94,7 @@ const size_t file_nnames = FILE_NAMES_SIZE;
 
 private int getvalue(struct magic_set *ms, struct magic *, const char **, int);
 private int hextoint(int);
-private const char *getstr(struct magic_set *, struct magic *, const char *,
+private const char __attribute__((overloadable))*getstr(struct magic_set *, struct magic *, const char *,
     int);
 private int parse(struct magic_set *, struct magic_entry *, const char *,
     size_t, int);
